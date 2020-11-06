@@ -1,6 +1,6 @@
 # Colour_detection
 
-It is the process of detecting the name of any colour.Here,we built an application using which we can automatically get the colour by clicking on it.So,for this we must need a colours dataset.There are 16.5 million colours which we cannot take in a dataset, so we take only some colours in the dataset and for remaining colours we map them with their nearest colour that is present in our dataset.Dataset is present in colors.csv file which includes 865 colours along with their r,g,b values and hex values.
+It is the process of detecting the name of any colour.Here,we built an application using which we can automatically get the colour by clicking on it.So,for this we need a dataset consisting of colour name and their rgb values.There are 16.5 million colours which we cannot take in a dataset, so we take only some colours in the dataset and for remaining colours we map them with their nearest colour that is present in our dataset.Dataset is present in colors.csv file which includes 865 colours along with their r,g,b values and hex values.
 
 This project is done using openCV and pandas python libraries.Firstly we require an image to work with.For the working of project we took colorpic.jpg image to find different colours pesent in that image.Using pandas we read the csv dataset to find colours.
 
